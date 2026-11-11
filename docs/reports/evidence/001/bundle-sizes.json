@@ -1,0 +1,18 @@
+{
+  "initial": [
+    {
+      "file": "assets/index-DwYixdwA.js",
+      "bytes": 233486,
+      "gzipBytes": 72903,
+      "brotliBytes": 62688
+    }
+  ],
+  "lazyRunway": [
+    {
+      "file": "assets/RunwayScene-Dvlwfudq.js",
+      "bytes": 929050,
+      "gzipBytes": 250029,
+      "brotliBytes": 205988
+    }
+  ]
+}

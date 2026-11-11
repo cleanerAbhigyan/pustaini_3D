@@ -1,0 +1,50 @@
+{
+  "browser-results.json": {
+    "bytes": 2987,
+    "sha256": "e97e89d47c735687cbdaa257f1614d94839dd9f37bcfdc12fcdcd4dab0ef6b8c"
+  },
+  "bundle-sizes.json": {
+    "bytes": 313,
+    "sha256": "a83235f1c99c16f2461cc55e58f7ab57fb2ceb1de1d0a6b6f186362cbfa2c3a0"
+  },
+  "desktop-axe.json": {
+    "bytes": 163900,
+    "sha256": "20a519c098429f926c3fc07566280d762744b6f6ca171ad5b2ea769e7631a4c3"
+  },
+  "desktop-opening.png": {
+    "bytes": 393825,
+    "sha256": "9da558a5acb9362d239ba8a0af445f33df4c650fd7cc5646b07013af4d232113"
+  },
+  "desktop-runway-final.png": {
+    "bytes": 91931,
+    "sha256": "9ebc295eb910d011d4037329ee67ac97f8a26bb080f667a8d4998586c5a67c16"
+  },
+  "mobile-emulated-axe.json": {
+    "bytes": 154277,
+    "sha256": "c69b47c25341a5d449b3fefe32ffc77c5105e388deb5d0a65d21fb8594efddd8"
+  },
+  "mobile-emulated-collection.png": {
+    "bytes": 262433,
+    "sha256": "0cf5cc405d4e364b28e2f0892109bafd806c5669a17d0641969f92ad07285461"
+  },
+  "mobile-emulated-opening.png": {
+    "bytes": 787326,
+    "sha256": "fbb439ed7b5d2a495ef31fd6b9a8f4fc67d66dd7ab40d201a5129408775ab195"
+  },
+  "mobile-emulated-runway-final.png": {
+    "bytes": 279777,
+    "sha256": "0d971894478d04d3a879c34c9d790b629dea590659656624faed8b7ced28ad2b"
+  },
+  "no-webgl.png": {
+    "bytes": 115282,
+    "sha256": "5e479a1896a39a813851326b237beb3f1062e24660d63c56b06d6f0272911aa6"
+  },
+  "reduced-motion.png": {
+    "bytes": 114894,
+    "sha256": "0fbd96e7210d99c353169d01eb017517d28d2ceafd617f2982b840d76f2ef2a8"
+  },
+  "runway-trace.json.gz": {
+    "bytes": 455465,
+    "sha256": "74443d03693bb922414d7babdcb28544917b18472c64a41c4e44aeded63ba5d6"
+  }
+}

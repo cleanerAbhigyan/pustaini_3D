@@ -1,0 +1,81 @@
+{
+  "browser": "158.0.8127.18",
+  "conditions": "Headless Chromium, Linux; software WebGL; no CPU/network throttling; fresh contexts; localhost production preview",
+  "checks": [
+    "desktop: initial HTML and deferred 3D",
+    "desktop: keyboard skip link",
+    "desktop: both blinks forward and reverse; idle release; no pointer interception",
+    "desktop: fixed camera; approach; slight turn; final hold; reverse",
+    "desktop: keyboard PageDown and PageUp",
+    "desktop: catalogue link, footer links and replay",
+    "desktop: all chapters without horizontal overflow",
+    "desktop: axe WCAG 2 A/AA and 2.1 AA",
+    "desktop: resize to 320px and 200% equivalent layout",
+    "desktop: repeatable Chromium runway performance trace",
+    "desktop: no scene rendering offscreen and no browser errors",
+    "desktop: direct anchor on a fresh document",
+    "mobile-emulated: initial HTML and deferred 3D",
+    "mobile-emulated: keyboard skip link",
+    "mobile-emulated: both blinks forward and reverse; idle release; no pointer interception",
+    "mobile-emulated: fixed camera; approach; slight turn; final hold; reverse",
+    "mobile-emulated: touch scroll",
+    "mobile-emulated: catalogue link, footer links and replay",
+    "mobile-emulated: all chapters without horizontal overflow",
+    "mobile-emulated: axe WCAG 2 A/AA and 2.1 AA",
+    "mobile-emulated: no scene rendering offscreen and no browser errors",
+    "mobile-emulated: direct anchor on a fresh document",
+    "reduced-motion: readable fallback, no 3D bundle; catalogue and replay usable",
+    "no-webgl: readable fallback, no 3D bundle; catalogue and replay usable"
+  ],
+  "profiles": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "deviceScaleFactor": 1,
+      "finalScene": {
+        "engine": "three.js r186",
+        "frames": "12",
+        "pose": "{\"z\":0,\"turn\":-0.28,\"stride\":0}",
+        "camera": "{\"position\":[0,1.9,7],\"rotation\":[-0.03180745079516311,0,0,\"XYZ\"]}",
+        "calls": "38",
+        "triangles": "2374",
+        "dpr": "1"
+      },
+      "warnings": [
+        "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+      ]
+    },
+    {
+      "name": "mobile-emulated",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "finalScene": {
+        "engine": "three.js r186",
+        "frames": "12",
+        "pose": "{\"z\":0,\"turn\":-0.28,\"stride\":0}",
+        "camera": "{\"position\":[0,1.9,7],\"rotation\":[-0.03180745079516311,0,0,\"XYZ\"]}",
+        "calls": "34",
+        "triangles": "2326",
+        "dpr": "1.5"
+      },
+      "warnings": [
+        "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+      ]
+    }
+  ],
+  "trace": {
+    "steps": 82,
+    "msBetweenSteps": 120,
+    "tasks": 1505,
+    "longTasks": 0,
+    "maxTaskMs": 6.055
+  }
+}
