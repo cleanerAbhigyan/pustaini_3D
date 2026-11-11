@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+<defs><linearGradient id="body" x1="160" y1="200" x2="450" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#383537"/><stop offset=".48" stop-color="#101012"/><stop offset="1" stop-color="#242123"/></linearGradient><linearGradient id="gold" x1="200" y1="260" x2="400" y2="340"><stop stop-color="#ecd69f"/><stop offset="1" stop-color="#98733d"/></linearGradient><radialGradient id="shadow"><stop stop-color="#201614" stop-opacity=".3"/><stop offset="1" stop-color="#201614" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="300" cy="423" rx="218" ry="36" fill="url(#shadow)"/>
+<path d="M242 207V146a58 58 0 0 1 116 0v61" stroke="#282426" stroke-width="18"/>
+<path d="M242 207V146a58 58 0 0 1 116 0v61" stroke="#96784b" stroke-width="2"/>
+<path d="m162 197 274-9 29 210-320 9z" fill="url(#body)" stroke="#5b4d42" stroke-width="2"/>
+<path d="m436 188 24 20 24 179-19 11z" fill="#0e0d0e" stroke="#51483f"/>
+<path d="m162 197 27 79 230-6 17-82" stroke="#8d7755" stroke-opacity=".6"/>
+<path d="m159 213-9 181 300-8" stroke="#706154" stroke-dasharray="2 4"/>
+<g fill="url(#gold)" stroke="#dec68c" stroke-width="1.2">
+<ellipse cx="300" cy="319" rx="15" ry="29"/><path d="M299 301c-17-21-9-43 5-41 12 2 8 19-1 20l3 23"/><path d="m310 266 10 5-11 3"/>
+<ellipse cx="248" cy="310" rx="12" ry="36" transform="rotate(-55 248 310)"/><ellipse cx="271" cy="332" rx="12" ry="40" transform="rotate(-28 271 332)"/><ellipse cx="300" cy="343" rx="12" ry="42"/><ellipse cx="329" cy="332" rx="12" ry="40" transform="rotate(28 329 332)"/><ellipse cx="352" cy="310" rx="12" ry="36" transform="rotate(55 352 310)"/>
+</g><g fill="#242020"><ellipse cx="230" cy="297" rx="5" ry="8" transform="rotate(-55 230 297)"/><ellipse cx="259" cy="350" rx="5" ry="8" transform="rotate(-28 259 350)"/><ellipse cx="300" cy="367" rx="5" ry="8"/><ellipse cx="341" cy="350" rx="5" ry="8" transform="rotate(28 341 350)"/><ellipse cx="370" cy="297" rx="5" ry="8" transform="rotate(55 370 297)"/></g>
+<rect x="289" y="266" width="23" height="8" rx="2" fill="url(#gold)"/>
+</svg>
