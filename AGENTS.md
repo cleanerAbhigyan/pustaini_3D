@@ -12,3 +12,7 @@ Before editing, read `docs/PROJECT_STATE.md` and the latest report it links to. 
 Use npm and commit `package-lock.json`. Use Node from `.nvmrc`. Project skills are in `.agents/skills/` and resolved in `skills-lock.json`; they are development guidance, never browser imports. Only install explicitly selected skills. Preserve upstream licenses in `docs/licenses/`.
 
 Do not invent product names, materials, prices, provenance, launch dates, or approved imagery. The confirmed product is **The Sovereign**, black with a gold peacock motif. Clearly label unapproved visual stand-ins. Replace them only with approved web-ready assets. Keep animation progress outside React state; drive deterministic poses from section bounds.
+
+## Shared context hub (both ChatGPT Work chats and Codex)
+
+At the start of every substantial task, also read `docs/context-hub/README.md`, `docs/context-hub/SHARED_CONTEXT.md`, `docs/context-hub/DECISIONS.md`, `docs/context-hub/NEXT_ACTIONS.md`, `assets/ASSET_MANIFEST.md`, and both `chats/3D-planning/HANDOFF.md` and `chats/3D-implementation/HANDOFF.md`. The planning chat writes its own handoff; the implementation chat writes its own handoff. Both read both. Refresh from GitHub before writing; never assume cross-chat transcripts synchronize automatically. Preserve existing implementation/report/state workflow above. Register imported assets with provenance and approval before using them in production. Do not mistake research images for approved product imagery.
